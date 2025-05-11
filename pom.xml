@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.vnexos.sema</groupId>
+  <artifactId>module-archetype</artifactId>
+  <version>1.0</version>
+  <packaging>maven-archetype</packaging>
+
+  <name>SeMa archetype for module</name>
+  <url>https://github.com/vnexos/SeMa_archetype</url>
+  <description>Archetype for creating Module for SeMa</description>
+
+  <developers>
+    <developer>
+      <id>vnexos-owner</id>
+      <name>Mohamed al'Ilnung</name>
+      <email>vnexos.official@gmail.com</email>
+      <organization>vnexos</organization>
+      <organizationUrl>https://github.com/vnexos</organizationUrl>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>https://github.com/vnexos/SeMa_archetype</url>
+    <connection>scm:git:https://github.com/vnexos/SeMa_archetype</connection>
+    <developerConnection>scm:git:ssh://git@github.com:vnexos/SeMa_archetype.git</developerConnection>
+  </scm>
+
+  <properties>
+    <java.version>21</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>3.3.1</version>
+      </extension>
+    </extensions>
+  </build>
+</project>
