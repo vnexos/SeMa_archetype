@@ -44,7 +44,7 @@ jobs:
       run: |
         BUNDLE_FOLDER=archetype-bundle/com/vnexos/sema/module-archetype/${{ env.RELEASE_VERSION }}/
         mkdir -p $BUNDLE_FOLDER
-        cp target/module-archetype-*.jar $BUNDLE_FOLDER/
+        cp target/module-archetype-${{ env.RELEASE_VERSION }}.jar $BUNDLE_FOLDER/
         cp pom.xml $BUNDLE_FOLDER/module-archetype-${{ env.RELEASE_VERSION }}.pom
         for file in $BUNDLE_FOLDER/*; do
           md5sum "$file" | awk '{ print $1 }' > "$file.md5"
