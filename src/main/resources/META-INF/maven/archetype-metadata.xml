@@ -12,8 +12,11 @@
     <fileSet filtered="true" packaged="true">
       <directory>src/main/resources</directory>
     </fileSet>
-    <fileSet filtered="true" packaged="true">
+    <fileSet filtered="false" packaged="true">
       <directory>src/assembly</directory>
+      <includes>
+        <include>assembly.xml</include>
+      </includes>
     </fileSet>
   </fileSets>
   <requiredProperties>
