@@ -12,7 +12,7 @@
     <fileSet filtered="true" packaged="true">
       <directory>src/main/resources</directory>
     </fileSet>
-    <fileSet filtered="false" packaged="true">
+    <fileSet filtered="false" packaged="false">
       <directory>src/assembly</directory>
       <includes>
         <include>assembly.xml</include>
