@@ -12,6 +12,9 @@
     <fileSet filtered="true" packaged="true">
       <directory>src/main/resources</directory>
     </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>src/assembly</directory>
+    </fileSet>
   </fileSets>
   <requiredProperties>
     <requiredProperty key="moduleName">
